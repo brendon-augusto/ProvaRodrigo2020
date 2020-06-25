@@ -1,0 +1,28 @@
+package br.edu.univas.main;
+
+import java.util.Scanner;
+
+public class Questão03 {
+	public static void main(String [] args) {
+	Scanner leitura = new Scanner(System.in);
+		
+		do {
+			int numero = leitura.nextInt();
+			int A = numero + 2,
+				B = numero + 1;
+			if(numero % 5 == 0) {
+				System.out.println(numero + " - " + numero);
+			} else if(numero % 5 != 0 && A % 5 == 0) {
+				System.out.println(numero + " - " + A);
+			} else if(numero % 5 != 0 && B % 5 == 0) {
+				System.out.println(numero + " - " + B);
+			} else {
+				System.out.println(numero + " - " + numero);
+			}
+		} while(true);
+	}
+
+
+		
+		
+	}
