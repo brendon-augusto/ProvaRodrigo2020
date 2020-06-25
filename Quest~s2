@@ -1,0 +1,57 @@
+package br.edu.univas.main;
+
+import java.util.Scanner;
+
+public class Questão02 {
+	public static void main(String [] args) {
+		
+	 
+		
+		Scanner leitura = new Scanner(System.in);
+		{
+			
+		 int	x = leitura.nextInt();	
+		 int   y = leitura.nextInt();
+		 
+		 {System.out.println("Você acredita que a vacina do covid 19 será feita em 2020");
+		     }
+		 
+		 
+		 
+		 if(x ==1)
+			 System.out.println(" Sim");
+		 if ( x == 2) {
+			 System.out.println("Não");
+		 }
+		 
+		 
+		 {System.out.println("Qual região do país você mora?");
+		 
+		 if( y == 1) { System.out.println("Região Sul");}
+		 if( y == 2) { System.out.println("Região Sudeste");}
+		 if( y == 3) { System.out.println("Região Centro Oeste");}
+		 if( y == 4) { System.out.println("Região Norte");}
+		 if( y == 5) { System.out.println("Região Nordeste");}
+		 
+		 }
+		 
+		 } 
+			 
+		 } 
+			 
+			 
+		 
+		 
+		  
+		 
+		 
+		 
+		 
+		
+		
+		
+		
+	
+
+
+	}
