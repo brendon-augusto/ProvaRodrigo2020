@@ -1,0 +1,29 @@
+package br.edu.univas.main;
+
+import java.util.Scanner;
+
+public class Questão01 {
+	public static void main(String [] args) {
+		
+		Scanner leitura = new Scanner(System.in);
+		int x = leitura.nextInt();
+		int contador = 0;
+		
+      
+		do { 	
+			x = scanner.nextInt();
+			if( x > 0) {
+				continue;
+			} else {
+				contador++;
+			}
+		
+			
+			
+			
+			
+	} while ( x !=0);
+		System.out.println(contador++);
+}
+}	
+	
